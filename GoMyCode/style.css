@@ -1,0 +1,65 @@
+body{background-color:bisque;}
+/* home */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    border: 2px;
+}  
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 22px;
+}
+
+  /* title*/
+  .titrep{
+      font-size: 30px;
+      font-family: 'Times New Roman', Times, serif;
+      border: 3px;
+  }
+  
+
+  /* Section 2*/
+  .section2{
+      padding-left: 30%;
+      background-color: gray;
+  }
+  #image{
+    border-radius: 20px;
+  }
+
+  /*footer*/
+  .footer a{
+    text-decoration: none;
+  }
+  #button a{
+      text-decoration: none;
+      color: black;
+  }
+
+
+  /*About*/
+  .about{
+      background-color: black;
+      color: white;
+  }
+  /*Contact*/
+  #Contact{
+    background-color: black;
+    color: white;   
+  }
+
+  /*table*/
+  .table{
+      background-color: black;
+      color: white;
+  }

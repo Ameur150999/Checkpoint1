@@ -2,19 +2,20 @@
 <html>
   <head>  
 		<title> Ameur Website </title>
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="C:\Users\dell\OneDrive - South Mediterranean University\Desktop\GoMyCode\icon.png" type="image/x-icon"/>
   </head>
     
   <body>
    <div class="navbar" id="home">
     <a class="active" href="#home">Home</a>
-    <a href="#work">Work</a>
     <a href="#Contact">Contact</a>
     <a href="#about">About</a>
-    <a href="#resume">Resume</a>
    </div>  
-  <br><br>
-  <section id="about">About
+  <br><br><br><br>
+  <section id="about">
+    <p class="titrep">About</p>
+  <div class="about">
   <ol type="I">
     <li>General Information
       <ul>
@@ -31,8 +32,10 @@
       </ul>
     </li>
   </ol>
+ </div>
   <br><br>
-  <h4>Web-Dev-Skills</h4>
+ <h2>Web-Dev-Skills</h2>
+ <div class="table">
    <table border="1">
     <tr>
       <th>HTML</th>
@@ -50,15 +53,23 @@
       <td>Elements</td>
     </tr>
   </table>
+ </div>
 </section>
   <br><br>
-  <h4>Me Playing Football</h4>
-  <img src="C:\Users\dell\OneDrive - South Mediterranean University\Desktop\Ameur\Photos\IMG_2460.jpg" alt="Football Picture" width="500" height="300">
+ <section class="section2">
+  <h2>Me Playing Football</h2>
+   <div>
+     <img id="image" src="C:\Users\dell\OneDrive - South Mediterranean University\Desktop\Ameur\Photos\IMG_2460.jpg" alt="Football Picture" width="500" height="300">
+   </div>
   <br><br>
-  <h4>This is my favourite episode of Choufli Hal</h4>
-  <iframe width="491" height="373" src="https://www.youtube.com/embed/Vc06NCOOaug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h2>This is my favourite episode of Choufli Hal</h2>
+    <div>
+      <iframe id="video" width="491" height="373" src="https://www.youtube.com/embed/Vc06NCOOaug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>  
+ </section>
   <br><br><br><br>
-   <section>Contact
+   <section class="section3">
+     <p class="titrep">Contact</p>
       <div class="Contact" id="Contact">
         <dl>
 	         <dt>Phone</dt>
@@ -70,11 +81,12 @@
       </div>
    </section>
   <br><br><br>
-  <footer>
-    <h3>To be a great Web Developer:</h3>
-    <a href="https://gomycode.tn/">Visit GoMyCode's Website</a>
+  <footer class="footer">
+    <h3 id="link">To be a great Web Developer:
+     <a href="https://gomycode.tn/">Visit GoMyCode's Website</a>
+    </h3>
     <br><br><br>
-    <a href="#home"> Go back to the Top </a>
+   <button id="button"> <a href="#home"> Go back to the Top </a></button>
   </footer>
 </body>
 </html>
